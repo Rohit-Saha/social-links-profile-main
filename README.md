@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/Rohit-Saha/social-links-profile-main
+- Live Site URL: https://social-links-profile-main-three-blue.vercel.app/
 
 ## My process
 
@@ -41,5 +41,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Rohit Saha](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- LinkedIn - www.linkedin.com/in/rohit-saha-45a6841bb
+- Frontend Mentor - [@Rohit-Saha](https://www.frontendmentor.io/profile/Rohit-Saha)

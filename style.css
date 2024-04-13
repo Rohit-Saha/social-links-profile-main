@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --primary-color-green: hsl(75, 94%, 57%);
+  --neutral-color-white: hsl(0, 0%, 100%);
+  --neutral-color-grey: hsl(0, 0%, 20%);
+  --neutral-color-dark-grey: hsl(0, 0%, 12%);
+  --neutral-color-off-black: hsl(0, 0%, 8%);
+  --desktop-width: 1440px;
+  --mobile-width: 375px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  background-color: var(--neutral-color-off-black);
+  color: var(--neutral-color-white);
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p,
+a {
+  font-size: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  padding: 40px 0;
+}
+
+.user-card {
+  background-color: var(--neutral-color-dark-grey);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  min-width: 250px;
+  max-width: 380px;
+}
+
+.image-wrapper {
+  display: grid;
+  place-content: center;
+}
+
+.user-info {
+  margin-top: 20px;
+}
+
+.user-info > h2 {
+  margin-bottom: 10px;
+}
+
+.user-info > h4 {
+  margin-bottom: 30px;
+  color: var(--primary-color-green);
+}
+
+.image-wrapper > img {
+  display: block;
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+}
+
+.social-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-container > a,
+.social-container > a:link {
+  text-decoration: none;
+  color: var(--neutral-color-white);
+  background-color: var(--neutral-color-grey);
+  padding: 12px 30px;
+  border-radius: 7px;
+  font-weight: 600;
+  width: 300px;
+  cursor: pointer;
+}
+
+.social-container > a:hover,
+.social-container > a:active {
+  background-color: var(--primary-color-green);
+  color: var(--neutral-color-dark-grey);
+}
+
+@media only screen and (max-width: 480px) {
+  .user-card {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .social-container > a,
+  .social-container > a:link {
+    width: unset;
+  }
+}
